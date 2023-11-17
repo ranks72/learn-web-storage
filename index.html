@@ -9,19 +9,23 @@
     <body align="center">
         <h1>Permainan tebak angka '123'</h1>
         <div class="contents">
-            <div class="child-content">
+
+            <div class="child-content" id="total-stat" align="center">
                 <h2>local stats</h2>
                 <hr>
-                <div>
-                    <h3>Jumlah permainan yang berhasil dimenangkan:</h3>
+                <div id="all-local-stat">
+                    <div class="local-stat-item">
+                        <h3>Jumlah permainan yang berhasil dimenangkan:</h3>
+                    </div> 
+                    
+                    <div class="local-stat-item">
+                        <h3>Jumlah tebakan salah terbanyak sekali main:</h3>
+                    </div>
+                    <button class="button" id="destroy-button">Hapus semua data</button>                   
                 </div>
-                <div>
-                    <h3>Jumlah tebakan salah terbanyak sekali main:</h3>
-                </div>
-                <button class="button">Hapus semua data</button>
             </div>
 
-            <div class="child-content">
+            <div class="child-content" id="game-board" align="center">
                 <h2>Game board</h2>
                 <div>
                     <h3>Silahkan menebak angka!</h3>
@@ -36,14 +40,14 @@
                 </div>
             </div>
 
-            <div class="child-content">
+            <div class="child-content" align="center">
                 <h2>Game Session Stats</h2>
                 <div>
                     <h3>Jumlah tebakan yang salah:</h3>
                 </div>
             </div>
 
-            <div class="child-content">
+            <div class="child-content" align="center">
                 <h2 align="center">Rules of games</h2>
                 <div>
                     <h3>Berikut Rules Permainan:</h3>
@@ -58,5 +62,7 @@
                 </div>
             </div>
         </div>
+    
+    <script></script>
     </body>
 </html>

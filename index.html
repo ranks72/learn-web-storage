@@ -16,10 +16,12 @@
                 <div id="all-local-stat">
                     <div class="local-stat-item">
                         <h3>Jumlah permainan yang berhasil dimenangkan:</h3>
+                        <h3 id="local-total-victory-field"></h3>
                     </div> 
 
                     <div class="local-stat-item">
                         <h3>Jumlah tebakan salah terbanyak sekali main:</h3>
+                        <h3 id="local-maximum-attempt-field"></h3>
                     </div>
                     <button class="button" id="destroy-button">Hapus semua data</button>                   
                 </div>
@@ -54,18 +56,22 @@
                 </div>
             </div>
 
-            <div class="child-content" align="center">
+            <div class="child-content" align="center" id="session-stats">
                 <h2>Game Session Stats</h2>
-                <div>
-                    <h3>Jumlah tebakan yang salah:</h3>
+                <hr>
+                <div id="all-session-stats">
+                    <div class="session-stat-item">
+                      <h3>Jumlah Tebakan Salah:</h3>
+                      <h3 id="session-user-attempts-amount-field"></h3>
+                    </div>
                 </div>
             </div>
 
-            <div class="child-content" align="center">
+            <div class="child-content" id="instructions" align="center">
                 <h2 align="center">Rules of games</h2>
                 <div>
-                    <h3>Berikut Rules Permainan:</h3>
-                    <ul>
+                    <h3 align="center">Berikut Rules Permainan:</h3>
+                    <ul id="instructions-list" align="left">
                         <li>Anda harus mencari kombinasi angka yang terdiri dari angka "1", "2", dan "3",
                             misalnya "231" dan "123".
                         </li>
@@ -77,6 +83,6 @@
             </div>
         </div>
     
-    <script></script>
+    <script src="scripts.js" type="text/javascript"></script>
     </body>
 </html>
